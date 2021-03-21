@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.691" tests="0" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\学习\Java\HW2\target\test-classes;C:\学习\Java\HW2\target\classes;C:\Java\Repository\junit\junit\4.11\junit-4.11.jar;C:\Java\Repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Java\Repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Java\Repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Java\Repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Java\Repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Java\Repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Java\Repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Java\Repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Java\Repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Java\Repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Java\Repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Java\Repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Java\Repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Java\Repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Java\Repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Java\Repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Java\Repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Java\Repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Java\Repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Java\Repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/>
+    <property name="sun.java.command" value="C:\Users\19164\AppData\Local\Temp\surefire9641294724298518735\surefirebooter14121449846352503673.jar C:\Users\19164\AppData\Local\Temp\surefire9641294724298518735 2021-03-21T20-00-05_573-jvmRun1 surefire1556776293513711277tmp surefire_011536075650396810621tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\学习\Java\HW2\target\test-classes;C:\学习\Java\HW2\target\classes;C:\Java\Repository\junit\junit\4.11\junit-4.11.jar;C:\Java\Repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Java\Repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Java\Repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Java\Repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Java\Repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Java\Repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Java\Repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Java\Repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Java\Repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Java\Repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Java\Repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Java\Repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Java\Repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Java\Repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Java\Repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Java\Repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Java\Repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Java\Repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Java\Repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Java\Repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\19164"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\学习\Java\HW2"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\19164\AppData\Local\Temp\surefire9641294724298518735\surefirebooter14121449846352503673.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="user.name" value="19164"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Java\Repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\19164\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="C:\学习\Java\HW2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Java\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.8bin;C:\Program Files\Java\jdk-11.0.8jre\bin;C:\Program Files\Git\cmd;C:\Program Files\OpenSSH-Win64;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\19164\AppData\Programs\Python\Python38;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\19164\anaconda3;C:\Users\19164\anaconda3\Library\mingw-w64\bin;C:\Users\19164\anaconda3\Library\usr\bin;C:\Users\19164\anaconda3\Library\bin;C:\Users\19164\anaconda3\Scripts;C:\Users\19164\AppData\Local\Microsoft\WindowsApps;C:\Users\19164\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Users\19164\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.2\bin;;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+</testsuite>

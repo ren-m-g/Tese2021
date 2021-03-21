@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.796" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\学习\第六学期\软件测试作业\HW1\target\test-classes;C:\学习\第六学期\软件测试作业\HW1\target\classes;C:\Java\Repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Java\Repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Java\Repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Java\Repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Java\Repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Java\Repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Java\Repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\学习\第六学期\软件测试作业\HW1\src\lib\calculator-1.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/>
+    <property name="sun.java.command" value="C:\Users\19164\AppData\Local\Temp\surefire16861775606566421344\surefirebooter13526096695503185152.jar C:\Users\19164\AppData\Local\Temp\surefire16861775606566421344 2021-03-19T15-05-23_361-jvmRun1 surefire17854689793794459837tmp surefire_08379681642278523169tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\学习\第六学期\软件测试作业\HW1\target\test-classes;C:\学习\第六学期\软件测试作业\HW1\target\classes;C:\Java\Repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Java\Repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Java\Repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Java\Repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Java\Repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Java\Repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Java\Repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\学习\第六学期\软件测试作业\HW1\src\lib\calculator-1.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\19164"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\学习\第六学期\软件测试作业\HW1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\19164\AppData\Local\Temp\surefire16861775606566421344\surefirebooter13526096695503185152.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="user.name" value="19164"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Java\Repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\19164\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="C:\学习\第六学期\软件测试作业\HW1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Java\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.8bin;C:\Program Files\Java\jdk-11.0.8jre\bin;C:\Program Files\Git\cmd;C:\Program Files\OpenSSH-Win64;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\19164\AppData\Programs\Python\Python38;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\19164\anaconda3;C:\Users\19164\anaconda3\Library\mingw-w64\bin;C:\Users\19164\anaconda3\Library\usr\bin;C:\Users\19164\anaconda3\Library\bin;C:\Users\19164\anaconda3\Scripts;C:\Users\19164\AppData\Local\Microsoft\WindowsApps;C:\Users\19164\AppData\Local\Programs\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Users\19164\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2020.3.2\bin;;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testAddDouble[11.0, 22.0, 33.0](1)" classname="HW1.AddTest" time="0.006"/>
+  <testcase name="testAddDouble[11.0, -1.0, 10.0](2)" classname="HW1.AddTest" time="0"/>
+  <testcase name="testAddDouble[101.0, 0.0, 101.0](3)" classname="HW1.AddTest" time="0"/>
+  <testcase name="testAddLong[1, 2, 3](1)" classname="HW1.AddTest" time="0"/>
+  <testcase name="testAddLong[1, -1, 0](2)" classname="HW1.AddTest" time="0"/>
+  <testcase name="testAddLong[100, 0, 100](3)" classname="HW1.AddTest" time="0"/>
+  <testcase name="testSubDouble[3.0, 2.0, 1.0](1)" classname="HW1.SubTest" time="0"/>
+  <testcase name="testSubDouble[11.0, -1.0, 12.0](2)" classname="HW1.SubTest" time="0.002"/>
+  <testcase name="testSubDouble[120.0, 0.0, 120.0](3)" classname="HW1.SubTest" time="0.001"/>
+  <testcase name="testSubDouble[-20.0, 10.0, -30.0](4)" classname="HW1.SubTest" time="0"/>
+  <testcase name="testSubDouble[-12.0, -11.0, -1.0](5)" classname="HW1.SubTest" time="0.001"/>
+  <testcase name="testSubLong[13, 12, 1](1)" classname="HW1.SubTest" time="0"/>
+  <testcase name="testSubLong[21, -1, 22](2)" classname="HW1.SubTest" time="0"/>
+  <testcase name="testSubLong[100, 0, 100](3)" classname="HW1.SubTest" time="0"/>
+  <testcase name="testSubLong[-2, 20, -22](4)" classname="HW1.SubTest" time="0.001"/>
+  <testcase name="testSubLong[-3, -10, 7](5)" classname="HW1.SubTest" time="0"/>
+</testsuite>

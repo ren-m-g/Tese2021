@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-AddSub" class="navigator-link">
+              <span class="suite-name border-passed">AddSub</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-AddSub" class="navigator-link ">
+                    <span>C:\学习\第六学期\软件测试作业\HW1\AddSubSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-AddSub" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-AddSub" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-AddSub" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-AddSub" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-AddSub" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-AddSub" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-AddSub" class="hide-methods passed suite-AddSub"> (hide)</a> <!-- hide-methods passed suite-AddSub -->
+                      <a href="#" panel-name="suite-AddSub" class="show-methods passed suite-AddSub"> (show)</a> <!-- show-methods passed suite-AddSub -->
+                    </span>
+                    <div class="method-list-content passed suite-AddSub">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.AddTest" class="method navigator-link" hash-for-method="testAddDouble(101.0, 0.0, 101.0)">testAddDouble(101.0, 0.0, 101.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.AddTest" class="method navigator-link" hash-for-method="testAddDouble(11.0, -1.0, 10.0)">testAddDouble(11.0, -1.0, 10.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.AddTest" class="method navigator-link" hash-for-method="testAddDouble(11.0, 22.0, 33.0)">testAddDouble(11.0, 22.0, 33.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.AddTest" class="method navigator-link" hash-for-method="testAddLong(100, 0, 100)">testAddLong(100, 0, 100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.AddTest" class="method navigator-link" hash-for-method="testAddLong(1, 2, 3)">testAddLong(1, 2, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.AddTest" class="method navigator-link" hash-for-method="testAddLong(1, -1, 0)">testAddLong(1, -1, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.SubTest" class="method navigator-link" hash-for-method="testSubDouble(11.0, -1.0, 12.0)">testSubDouble(11.0, -1.0, 12.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.SubTest" class="method navigator-link" hash-for-method="testSubDouble(-20.0, 10.0, -30.0)">testSubDouble(-20.0, 10.0, -30.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.SubTest" class="method navigator-link" hash-for-method="testSubDouble(3.0, 2.0, 1.0)">testSubDouble(3.0, 2.0, 1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.SubTest" class="method navigator-link" hash-for-method="testSubDouble(-12.0, -11.0, -1.0)">testSubDouble(-12.0, -11.0, -1.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.SubTest" class="method navigator-link" hash-for-method="testSubDouble(120.0, 0.0, 120.0)">testSubDouble(120.0, 0.0, 120.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.SubTest" class="method navigator-link" hash-for-method="testSubLong(13, 12, 1)">testSubLong(13, 12, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.SubTest" class="method navigator-link" hash-for-method="testSubLong(21, -1, 22)">testSubLong(21, -1, 22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.SubTest" class="method navigator-link" hash-for-method="testSubLong(100, 0, 100)">testSubLong(100, 0, 100)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.SubTest" class="method navigator-link" hash-for-method="testSubLong(-3, -10, 7)">testSubLong(-3, -10, 7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-AddSub" title="HW1.SubTest" class="method navigator-link" hash-for-method="testSubLong(-2, 20, -22)">testSubLong(-2, 20, -22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-AddSub -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-AddSub" class="panel AddSub">
+          <div class="suite-AddSub-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HW1.AddTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddDouble(101.0, 0.0, 101.0)">
+                  </a> <!-- testAddDouble(101.0, 0.0, 101.0) -->
+                  <span class="method-name">testAddDouble</span>
+                  <span class="parameters">(101.0, 0.0, 101.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddDouble(11.0, -1.0, 10.0)">
+                  </a> <!-- testAddDouble(11.0, -1.0, 10.0) -->
+                  <span class="method-name">testAddDouble</span>
+                  <span class="parameters">(11.0, -1.0, 10.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddDouble(11.0, 22.0, 33.0)">
+                  </a> <!-- testAddDouble(11.0, 22.0, 33.0) -->
+                  <span class="method-name">testAddDouble</span>
+                  <span class="parameters">(11.0, 22.0, 33.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddLong(100, 0, 100)">
+                  </a> <!-- testAddLong(100, 0, 100) -->
+                  <span class="method-name">testAddLong</span>
+                  <span class="parameters">(100, 0, 100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddLong(1, 2, 3)">
+                  </a> <!-- testAddLong(1, 2, 3) -->
+                  <span class="method-name">testAddLong</span>
+                  <span class="parameters">(1, 2, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddLong(1, -1, 0)">
+                  </a> <!-- testAddLong(1, -1, 0) -->
+                  <span class="method-name">testAddLong</span>
+                  <span class="parameters">(1, -1, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AddSub-class-passed -->
+          <div class="suite-AddSub-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">HW1.SubTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubDouble(11.0, -1.0, 12.0)">
+                  </a> <!-- testSubDouble(11.0, -1.0, 12.0) -->
+                  <span class="method-name">testSubDouble</span>
+                  <span class="parameters">(11.0, -1.0, 12.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubDouble(-20.0, 10.0, -30.0)">
+                  </a> <!-- testSubDouble(-20.0, 10.0, -30.0) -->
+                  <span class="method-name">testSubDouble</span>
+                  <span class="parameters">(-20.0, 10.0, -30.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubDouble(3.0, 2.0, 1.0)">
+                  </a> <!-- testSubDouble(3.0, 2.0, 1.0) -->
+                  <span class="method-name">testSubDouble</span>
+                  <span class="parameters">(3.0, 2.0, 1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubDouble(-12.0, -11.0, -1.0)">
+                  </a> <!-- testSubDouble(-12.0, -11.0, -1.0) -->
+                  <span class="method-name">testSubDouble</span>
+                  <span class="parameters">(-12.0, -11.0, -1.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubDouble(120.0, 0.0, 120.0)">
+                  </a> <!-- testSubDouble(120.0, 0.0, 120.0) -->
+                  <span class="method-name">testSubDouble</span>
+                  <span class="parameters">(120.0, 0.0, 120.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubLong(13, 12, 1)">
+                  </a> <!-- testSubLong(13, 12, 1) -->
+                  <span class="method-name">testSubLong</span>
+                  <span class="parameters">(13, 12, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubLong(21, -1, 22)">
+                  </a> <!-- testSubLong(21, -1, 22) -->
+                  <span class="method-name">testSubLong</span>
+                  <span class="parameters">(21, -1, 22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubLong(100, 0, 100)">
+                  </a> <!-- testSubLong(100, 0, 100) -->
+                  <span class="method-name">testSubLong</span>
+                  <span class="parameters">(100, 0, 100)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubLong(-3, -10, 7)">
+                  </a> <!-- testSubLong(-3, -10, 7) -->
+                  <span class="method-name">testSubLong</span>
+                  <span class="parameters">(-3, -10, 7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSubLong(-2, 20, -22)">
+                  </a> <!-- testSubLong(-2, 20, -22) -->
+                  <span class="method-name">testSubLong</span>
+                  <span class="parameters">(-2, 20, -22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-AddSub-class-passed -->
+        </div> <!-- panel AddSub -->
+        <div panel-name="test-xml-AddSub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\学习\第六学期\软件测试作业\HW1\AddSubSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;AddSub&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestAddSub&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;HW1.AddTest&quot;/&gt;
+      &lt;class name=&quot;HW1.SubTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestAddSub --&gt;
+&lt;/suite&gt; &lt;!-- AddSub --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-AddSub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for AddSub</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestAddSub (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-AddSub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for AddSub</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-AddSub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for AddSub</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_AddSub');
+function tableData_AddSub() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAddDouble')
+data.setCell(0, 2, 'HW1.AddTest')
+data.setCell(0, 3, 3);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSubDouble')
+data.setCell(1, 2, 'HW1.SubTest')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSubLong')
+data.setCell(2, 2, 'HW1.SubTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAddDouble')
+data.setCell(3, 2, 'HW1.AddTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testAddLong')
+data.setCell(4, 2, 'HW1.AddTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSubLong')
+data.setCell(5, 2, 'HW1.SubTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testSubDouble')
+data.setCell(6, 2, 'HW1.SubTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSubDouble')
+data.setCell(7, 2, 'HW1.SubTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAddLong')
+data.setCell(8, 2, 'HW1.AddTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testSubLong')
+data.setCell(9, 2, 'HW1.SubTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testAddLong')
+data.setCell(10, 2, 'HW1.AddTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testAddDouble')
+data.setCell(11, 2, 'HW1.AddTest')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testSubDouble')
+data.setCell(12, 2, 'HW1.SubTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSubDouble')
+data.setCell(13, 2, 'HW1.SubTest')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testSubLong')
+data.setCell(14, 2, 'HW1.SubTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSubLong')
+data.setCell(15, 2, 'HW1.SubTest')
+data.setCell(15, 3, 0);
+window.suiteTableData['AddSub']= { tableData: data, tableDiv: 'times-div-AddSub'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 ms</span>
+              <div id="times-div-AddSub">
+              </div> <!-- times-div-AddSub -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-AddSub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for AddSub</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-AddSub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-AddSub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">HW1.AddTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initCalculator</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddDouble(11.0, 22.0, 33.0)</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddDouble(11.0, -1.0, 10.0)</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddDouble(101.0, 0.0, 101.0)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddLong(1, 2, 3)</span>
+                <span class="method-start">30 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddLong(1, -1, 0)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddLong(100, 0, 100)</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">HW1.SubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initCalculator</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSubDouble(3.0, 2.0, 1.0)</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubDouble(11.0, -1.0, 12.0)</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubDouble(120.0, 0.0, 120.0)</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubDouble(-20.0, 10.0, -30.0)</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubDouble(-12.0, -11.0, -1.0)</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubLong(13, 12, 1)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubLong(21, -1, 22)</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubLong(100, 0, 100)</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubLong(-2, 20, -22)</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSubLong(-3, -10, 7)</span>
+                <span class="method-start">42 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
